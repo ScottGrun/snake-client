@@ -29,6 +29,10 @@ const setupInput = function (conn) {
         conn.write("Move: down");
         console.log("Down");
         break;
+      case "\u006D":
+        //Sends Message
+        conn.write("Say: Hello there");
+
     }
   });
 
